@@ -1,0 +1,15 @@
+
+.vs/期數計算機/v16/.suo
+*.testlog
+*.manifest
+*.config
+*.pdb
+期數計算機/Form1.resx
+*.cache
+期數計算機/obj/Debug/期數計算機.csproj.FileListAbsolute.txt
+*.exe
+期數計算機/obj/Debug/期數計算機.Properties.Resources.resources
+期數計算機/Properties/AssemblyInfo.cs
+期數計算機/Properties/Resources.Designer.cs
+期數計算機/Properties/Resources.resx
+期數計算機/期數計算機.csproj
