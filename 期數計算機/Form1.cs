@@ -15,6 +15,8 @@ namespace 期數計算機
         public Form1()
         {
             InitializeComponent();
+            label4.Text = String.Format("相差{0}年", 0);
+            label5.Text = String.Format("相差{0}個月", 0);
             label6.Text = String.Format("民國{0}年", (dateTimePicker1.Value.Year - 1911));
             label7.Text = String.Format("民國{0}年", (dateTimePicker2.Value.Year - 1911));
             label8.Text = String.Format("下一期時間為{0}年{1}月{2}日", 0, 0, 0);
@@ -42,8 +44,8 @@ namespace 期數計算機
                 label9.Text = String.Format("也就是民國{0}年{1}月{2}日", dt2.Year - 1911, dt2.Month+1, dt1.Day);
             }
             label3.Text = String.Format("第{0}期",month);
-            label4.Text = String.Format("距離目標日期{0}年", year);
-            label5.Text = String.Format("距離目標日期{0}月", month);
+            label4.Text = String.Format("相差{0}年", year);
+            label5.Text = String.Format("相差{0}個月", month);
         }
 
         private void label3_Click(object sender, EventArgs e)
